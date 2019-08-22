@@ -10,6 +10,4 @@
 
 @interface AClear : NSObject
     
--(void)performCustomTaskOnLoad;
-
 @end

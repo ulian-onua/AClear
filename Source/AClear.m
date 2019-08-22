@@ -10,12 +10,11 @@
 
 @implementation AClear
 + (void)load {
-    AClear* obj = [[AClear alloc] init];
-    [obj performCustomTaskOnLoad];
-}
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSString *gtmSessionFetcherDownloadsKey = @"com.google.GTMSessionFetcher.downloads";
+    [defaults setObject:nil forKey: gtmSessionFetcherDownloadsKey];
     
--(void)performCustomTaskOnLoad {
-    NSLog(@"AClear. Override to perform a custom task.");
+    NSLog(@"AClear: %@ is set to nil in User Defaults", gtmSessionFetcherDownloadsKey);
 }
-    
+
 @end
