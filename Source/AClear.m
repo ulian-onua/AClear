@@ -15,7 +15,7 @@
 }
     
 -(void)performCustomTaskOnLoad {
-    
+    NSLog(@"AClear. Override to perform a custom task.");
 }
     
 @end
