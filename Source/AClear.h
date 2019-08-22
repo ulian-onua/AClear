@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface AClear : NSObject
+    
+-(void)performCustomTaskOnLoad;
 
 @end

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AClear"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "AClear is a simple class to help solve issue with Firebase GTMSessionFetcher"
 
   s.homepage     = "https://github.com/ulian-onua/AClear"
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "11.0"
 
-  s.source       = { :git => "https://github.com/ulian-onua/AClear.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/ulian-onua/AClear.git", :tag => "0.0.3" }
 
 
   s.source_files  = "Source/*.{h,m}"

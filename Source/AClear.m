@@ -10,6 +10,12 @@
 
 @implementation AClear
 + (void)load {
-    NSLog(@"AClear is loaded");
+    AClear* obj = [[AClear alloc] init];
+    [obj performCustomTaskOnLoad];
 }
+    
+-(void)performCustomTaskOnLoad {
+    
+}
+    
 @end
